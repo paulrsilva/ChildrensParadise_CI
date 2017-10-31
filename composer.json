@@ -1,0 +1,42 @@
+{
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"irc": "irc://irc.freenode.net/codeigniter",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
+	"require": {
+		"mercadopago/sdk": "0.5.2"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*"
+	},
+	    "type": "component",
+    "require": {
+        "robloach/component-installer": "*",
+        "components/bootstrap" : ">=2.0, <4.0",
+        "components/jquery": ">=1.7.1, <4.0.0"
+    },
+	    "extra": {
+        "component": {
+            "scripts": [
+                "js/bootstrap-datepicker.js"
+            ],
+            "styles": [
+                "dist/css/bootstrap-datepicker.css",
+                "dist/css/bootstrap-datepicker3.css"
+            ],
+            "files": [
+                "js/locales/bootstrap-datepicker.*.js"
+            ]
+        }
+    }
+}
